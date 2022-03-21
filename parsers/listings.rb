@@ -30,10 +30,10 @@ if total_products
     total_products = total_products.text.scan(/\d+/).first.to_f 
     total_page = (total_products/48).ceil
     
-    if var['page_number'] < total_page
+    if var['page_number'] < total_page and var['page_number'] > 1
         if var['page_number'] <= 2 # delete for full run
             pages << {
-                url: page['url']+"&page=#{p}",
+                url: page['url']+"&page=#{var['page_number']}",
                 page_type: 'listings',
                 fetch_type: 'browser',
                 vars: {
