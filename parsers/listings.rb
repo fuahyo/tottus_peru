@@ -30,14 +30,14 @@ if total_products
     total_products = total_products.text.scan(/\d+/).first.to_f 
     total_page = (total_products/48).ceil
     
-    2.upto(total_page) do  |p|
-        if p == 2 # delete for full run
+    if var['page_number'] < total_page
+        if var['page_number'] <= 2 # delete for full run
             pages << {
                 url: page['url']+"&page=#{p}",
                 page_type: 'listings',
                 fetch_type: 'browser',
                 vars: {
-                    page_number: p
+                    page_number: var['page_number'] + 1
                 }
             }
         end
