@@ -6,8 +6,8 @@ competitor_product_id = page['url'].split('/')[-2].split('-').last
 name = html.at_css('h1.title').text.strip
 brand_selector = html.at_css('div.subtitle-container')
 brand = brand_selector ? brand_selector.text.split('-').first : nil
-customer_price_lc = html.at_css('span.cmrPrice').text.scan(/\d+/).first.to_f
-base_price = html.at_css('span.regularPrice') ? html.at_css('span.regularPrice').text.scan(/\d+/).first.to_f : customer_price_lc
+customer_price_lc = html.at_css('span.cmrPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.to_f
+base_price = html.at_css('.column-right-content .ProductPrice .regularPrice') ? html.at_css('.column-right-content .ProductPrice .regularPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.to_f : customer_price_lc
 
 has_discount = false
 discount_percentage = nil
@@ -58,6 +58,7 @@ unit_std = $2
 size_std = std.gsub(',','').to_f rescue nil
 size_unit_std = unit_std
 
+sku = html.at_css('#FlixmediaContent script')['data-flix-sku']
 
 product_pieces_regex = [
     /(\d+)\s?per\s?pack/i,
@@ -71,6 +72,7 @@ product_pieces ||= 1
 
 description = html.at_css('span.description-detail') ? html.at_css('span.description-detail').text.strip : nil
 img_url = html.at_css('img.GalleryImg')['src']
+img_url = img_url.include?('https:') ? img_url : nil
 barcode = competitor_product_id
 
 is_available = true
@@ -112,7 +114,7 @@ product = {
     description: description,
     img_url: img_url,
     barcode: barcode,
-    sku: nil,
+    sku: sku,
     url: page["url"],
     is_available: is_available,
     crawled_source: "WEB",
