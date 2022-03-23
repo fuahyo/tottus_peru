@@ -58,7 +58,7 @@ unit_std = $2
 size_std = std.gsub(',','').to_f rescue nil
 size_unit_std = unit_std
 
-sku = html.at_css('#FlixmediaContent script')['data-flix-sku']
+sku = html.at_css('#FlixmediaContent script')['data-flix-sku'] ? html.at_css('#FlixmediaContent script')['data-flix-sku'] : competitor_product_id
 
 product_pieces_regex = [
     /(\d+)\s?per\s?pack/i,
