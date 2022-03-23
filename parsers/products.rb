@@ -6,8 +6,8 @@ competitor_product_id = page['url'].split('/')[-2].split('-').last
 name = html.at_css('h1.title').text.strip
 brand_selector = html.at_css('div.subtitle-container')
 brand = brand_selector ? brand_selector.text.split('-').first : nil
-customer_price_lc = html.at_css('span.cmrPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.to_f
-base_price = html.at_css('.column-right-content .ProductPrice .regularPrice') ? html.at_css('.column-right-content .ProductPrice .regularPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.to_f : customer_price_lc
+customer_price_lc = html.at_css('span.cmrPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.gsub(',', '').to_f
+base_price = html.at_css('.column-right-content .ProductPrice .regularPrice') ? html.at_css('.column-right-content .ProductPrice .regularPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.gsub(',', '').to_f : customer_price_lc
 
 has_discount = false
 discount_percentage = nil
