@@ -33,7 +33,7 @@ if total_products
     if var['page_number'] < total_page
         
         pages << {
-            url: page['url']+"&page=#{var['page_number']}",
+            url: page['url']+"&page=#{var['page_number']+1}",
             page_type: 'listings',
             fetch_type: 'browser',
             vars: {
