@@ -30,7 +30,7 @@ if total_products
     total_products = total_products.text.scan(/\d+/).first.to_f 
     total_page = (total_products/48).ceil
     
-    if var['page_number'] < total_page and var['page_number'] > 1 # delete for full run
+    if var['page_number'] < total_page
         
         pages << {
             url: page['url']+"&page=#{var['page_number']}",
