@@ -4,8 +4,8 @@ begin
   outputs = find_outputs("list_products", {}, i, 500)
 
   outputs.each do |output|
-    unless products.include?(output["url"])
-      products.append(output["url"])
+    unless products.include?(output["competitor_product_id"])
+      products.append(output["competitor_product_id"])
     end
   end
 
@@ -14,7 +14,7 @@ end while outputs.length > 0
 
 
 products.each do |product|
-  un_outputs = find_outputs("list_products", {"url": product}, 1, 500)
+  un_outputs = find_outputs("list_products", {"competitor_product_id": product}, 1, 500)
 
   filtered_output = un_outputs[0]
   filtered_output["_collection"] = "products"
