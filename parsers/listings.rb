@@ -30,14 +30,14 @@ if total_products
     total_products = total_products.text.scan(/\d+/).first.to_f 
     total_page = (total_products/48).ceil
     
-    if var['page_number'] < total_page
+    (2...total_page).each do |page_number|
         
         pages << {
-            url: page['url']+"&page=#{var['page_number']+1}",
+            url: page['url']+"&page=#{page_number}",
             page_type: 'listings',
             fetch_type: 'browser',
             vars: {
-                page_number: var['page_number'] + 1
+                page_number: page_number
             }
         }
     end
