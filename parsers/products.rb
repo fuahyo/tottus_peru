@@ -3,7 +3,8 @@ html = Nokogiri.HTML(content)
 var = page['vars']
 no_exists = html.css('h3.error-title')
 
-unless no_exists
+
+if no_exists.empty?
     competitor_product_id = page['url'].split('/')[-2].split('-').last
     name = html.at_css('h1.title').text.strip
     brand_selector = html.at_css('div.subtitle-container')
@@ -24,6 +25,7 @@ unless no_exists
         /(\d*[\.,]?\d+)\s?(l)/i,
         /(\d*[\.,]?\d+)\s?(ml)/i,
         /(\d*[\.,]?\d+)\s?(cl)/i,
+        /(\d*[\.,]?\d+)\s?(gr)/i,
         /(\d*[\.,]?\d+)\s?(g)/i,
         /(\d*[\.,]?\d+)\s?(mg)/i,
         /(\d*[\.,]?\d+)\+?\s?(kg)/i,
@@ -57,10 +59,10 @@ unless no_exists
     size_regex.find {|sr| name =~ sr}
     std = $1
     unit_std = $2
-    size_std = std.gsub(',','').to_f rescue nil
+    size_std = std.gsub(',','.').to_f rescue nil
     size_unit_std = unit_std
 
-    sku = html.at_css('#FlixmediaContent script') ? html.at_css('#FlixmediaContent script')['data-flix-sku'] : competitor_product_id
+    sku = nil
 
     product_pieces_regex = [
         /(\d+)\s?per\s?pack/i,
@@ -82,7 +84,7 @@ unless no_exists
     is_promoted = false
     type_of_promotion = nil
     promo_attributes = nil
-    is_private_label = true
+    is_private_label = !(brand.downcase.include?('tottus'))
 
     item_identifiers = JSON.generate({
         "barcode" => "'#{barcode}'"
