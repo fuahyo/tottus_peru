@@ -68,7 +68,6 @@ if no_exists.empty?
         /(\d+)\s?per\s?pack/i,
         /(\d+)\s?pack/i,
         /pack\s(\d+)/i,
-        /\b(\d*[\.,]?\d+)\s?l\b/i,
         /(\d+)\s?pcs?/i,
         /(\d+)\s?hojas/i,
         /(\d+)\s?piezas/i,
