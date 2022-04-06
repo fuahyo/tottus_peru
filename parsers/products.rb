@@ -67,8 +67,16 @@ if no_exists.empty?
     product_pieces_regex = [
         /(\d+)\s?per\s?pack/i,
         /(\d+)\s?pack/i,
+        /pack\s(\d+)/i,
+        /\b(\d*[\.,]?\d+)\s?l\b/i,
         /(\d+)\s?pcs?/i,
-        /(\d+)\s?x\s?\d+/i
+        /(\d+)\s?x\s?\d+/i,
+        /x\s?(\d+)/i,
+        /(\d+)\s?hojas/i,
+        /(\d+)\s?piezas/i,
+        /(\d+)\s?pzs/i,
+        /(\d+)\s?unid/i,
+        /(\d+)\s?u/i,
     ].find {|ppr| name =~ ppr}
     product_pieces = product_pieces_regex ? $1.to_i : 1
     product_pieces = 1 if product_pieces == 0
