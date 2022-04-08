@@ -96,7 +96,8 @@ if no_exists.empty?
     })
 
     product = {
-        _collection: "list_products",
+        _id: competitor_product_id,
+        _collection: "products",
         competitor_name: "TOTTUS",
         competitor_type: "dmart",
         store_name: nil,
