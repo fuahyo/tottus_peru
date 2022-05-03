@@ -2,14 +2,14 @@ html = Nokogiri.HTML(content)
 
 var = page['vars']
 
-no_exists = html.css('h3.error-title') 
+no_exists = html.at('h3.error-title') 
 
 unless no_exists
     category_name = html.at_css('.facet-breadcrum.active')&.text.strip
     products = html.css('.product')
 
     products.each_with_index do |product, i|
-
+        
         link = product.at_css('a')['href']
 
         pages << {
