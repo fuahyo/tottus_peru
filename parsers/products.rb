@@ -8,7 +8,8 @@ if no_exists.empty?
     competitor_product_id = page['url'].split('/')[-2].split('-').last
     name = html.at_css('h1.title').text.strip
     brand_selector = html.at_css('div.subtitle-container')
-    brand = brand_selector ? brand_selector.text.split('-').first : nil
+    brand = brand_selector ? brand_selector.text.split(' - ').first : nil
+   
     customer_price_lc = html.at_css('span.cmrPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.gsub(',', '').to_f
     base_price = html.at_css('.column-right-content .ProductPrice .regularPrice') ? html.at_css('.column-right-content .ProductPrice .regularPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.gsub(',', '').to_f : customer_price_lc
 
@@ -26,7 +27,7 @@ if no_exists.empty?
         /(\d*[\.,]?\d+)\s?(ml)/i,
         /(\d*[\.,]?\d+)\s?(cl)/i,
         /(\d*[\.,]?\d+)\s?(gr)/i,
-        /(\d*[\.,]?\d+)\s?(g)/i,
+        /(\d*[\.,]?\d+)\s?(g)(?!\w+)/i,
         /(\d*[\.,]?\d+)\s?(mg)/i,
         /(\d*[\.,]?\d+)\+?\s?(kg)/i,
         /(\d*[\.,]?\d+)\s?(oz)/i,
@@ -50,7 +51,7 @@ if no_exists.empty?
         /(\d*[\.,]?\d+)\s?(box)/i,
         /(\d*[\.,]?\d+)\s?(per\s?pack)/i,
         /(\d*[\.,]?\d+)\s?(pack)/i,
-        /(\d*[\.,]?\d+)\s?(s)/i,
+        /(\d*[\.,]?\d+)\s?(s)(?!\w+)/i,
         /(\d*[\.,]?\d+)\s?(m)[^A-Za-z]?/i,
         /(\d*[\.,]?\d+)\s?(page[s]?)[^A-Za-z]?/i,
         /(\d*[\.,]?\d+)\s?(bag)[^A-Za-z]?/i,
@@ -73,7 +74,7 @@ if no_exists.empty?
         /(\d+)\s?piezas/i,
         /(\d+)\s?pzs/i,
         /(\d+)\s?unid/i,
-        /(\d+)\s?u/i,
+        # /(\d+)\s?u/i,
     ].find {|ppr| name =~ ppr}
     product_pieces = product_pieces_regex ? $1.to_i : 1
     product_pieces = 1 if product_pieces == 0
@@ -82,7 +83,7 @@ if no_exists.empty?
     description = html.at_css('span.description-detail') ? html.at_css('span.description-detail').text.strip : nil
     img_url = html.at_css('img.GalleryImg')['src']
     img_url = img_url.include?('https:') ? img_url : nil
-    barcode = competitor_product_id
+    barcode = competitor_product_id.to_s
 
     is_available = true
 
