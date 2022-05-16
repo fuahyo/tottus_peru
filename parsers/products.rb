@@ -90,7 +90,7 @@ if no_exists.empty?
     is_promoted = false
     type_of_promotion = nil
     promo_attributes = nil
-    is_private_label = !(brand.downcase.include?('tottus'))
+    is_private_label = (brand.downcase.include?('tottus'))
 
     item_identifiers = JSON.generate({
         "barcode" => "'#{barcode}'"
