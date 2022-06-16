@@ -38,7 +38,6 @@ if no_exists.empty?
         /(\d*[\.,]?\d+)\s?(oz)/i,
         /(\d*[\.,]?\d+)\s?(slice[s]?)/i,
         /(\d*[\.,]?\d+)\s?(sachet[s]?)/i,
-        /\d+\s?x\s?(\d*[\.,]?\d+)\s?(s)/i,
         /(\d*[\.,]?\d+)\s?(tablet[s]?)/i,
         /(\d*[\.,]?\d+)\s?(tab[s]?)/i,
         /(\d*[\.,]?\d+)\s?(catridge[s]?)/i,
@@ -57,16 +56,23 @@ if no_exists.empty?
         /(\d*[\.,]?\d+)\s?(per\s?pack)/i,
         /(\d*[\.,]?\d+)\s?(pack)/i,
         /(\d*[\.,]?\d+)\s?(s)(?!\w+)/i,
-        /(\d*[\.,]?\d+)\s?(m)[^A-Za-z]?/i,
+        /(\d*[\.,]?\d+)\s?(mm)(?!\w+)/i,
+        /(\d*[\.,]?\d+)\s?(m)(?!\w+)/i,
         /(\d*[\.,]?\d+)\s?(page[s]?)[^A-Za-z]?/i,
         /(\d*[\.,]?\d+)\s?(bag)[^A-Za-z]?/i,
-        /(\d*[\.,]?\d+)\s?(unidades)/i,
     ]
     size_regex.find {|sr| name =~ sr}
     std = $1
     unit_std = $2
     size_std = std.gsub(',','.').to_f rescue nil
     size_unit_std = unit_std
+
+    if size_std
+        if size_std > 2000
+            size_std = nil
+            size_unit_std = nil
+        end
+    end
 
     sku = nil
 
@@ -79,6 +85,7 @@ if no_exists.empty?
         /(\d+)\s?piezas/i,
         /(\d+)\s?pzs/i,
         /(\d+)\s?unid/i,
+        /(\d+)\s?un(?!\w+)/i,
         # /(\d+)\s?u/i,
     ].find {|ppr| name =~ ppr}
     product_pieces = product_pieces_regex ? $1.to_i : 1
