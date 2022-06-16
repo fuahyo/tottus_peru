@@ -11,7 +11,11 @@ if no_exists.empty?
     brand = brand_selector ? brand_selector.text.split(' - ').first : nil
    
     customer_price_lc = html.at_css('span.cmrPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.gsub(',', '').to_f
-    base_price = html.at_css('.column-right-content .ProductPrice .regularPrice').text.empty? ? customer_price_lc : html.at_css('.column-right-content .ProductPrice .regularPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.gsub(',', '').to_f 
+    if html.at_css('.column-right-content .ProductPrice .regularPrice')
+        base_price = html.at_css('.column-right-content .ProductPrice .regularPrice').text.empty? ? customer_price_lc : html.at_css('.column-right-content .ProductPrice .regularPrice').text.scan(/\d+[,.]*\d*[,.]*\d*/).first.gsub(',', '').to_f 
+    else
+        base_price = customer_price_lc
+    end
 
     has_discount = false
     discount_percentage = nil
