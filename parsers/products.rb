@@ -5,7 +5,10 @@ no_exists = html.css('h3.error-title')
 
 
 if no_exists.empty?
-    competitor_product_id = page['url'].split('/')[-2].split('-').last
+    script = html.at_css('script[type="application/ld+json"]').text
+    json = JSON.parse(script)
+    competitor_product_id = json['sku']
+
     name = html.at_css('h1.title').text.strip
     brand_selector = html.at_css('div.subtitle-container')
     brand = brand_selector ? brand_selector.text.split(' - ').first : nil
@@ -74,12 +77,11 @@ if no_exists.empty?
         end
     end
 
-    sku = nil
+    sku = competitor_product_id
 
     product_pieces_regex = [
         /(\d+)\s?per\s?pack/i,
         /(\d+)\s?pack/i,
-        /pack\s(\d+)/i,
         /(\d+)\s?pcs?/i,
         /(\d+)\s?hojas/i,
         /(\d+)\s?piezas/i,
@@ -92,10 +94,10 @@ if no_exists.empty?
     product_pieces = 1 if product_pieces == 0
     product_pieces ||= 1
 
-    description = html.at_css('span.description-detail') ? html.at_css('span.description-detail').text.strip : nil
+    description = html.at_css('.description-detail') ? html.at_css('.description-detail').text.strip : nil
     img_url = html.at_css('img.GalleryImg')['src']
     img_url = img_url.include?('https:') ? img_url : nil
-    barcode = competitor_product_id.to_s
+    barcode = html.at_css('#OKTS_div')['data-ean']
 
     is_available = true
 
