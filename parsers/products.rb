@@ -97,7 +97,7 @@ if no_exists.empty?
     description = html.at_css('.description-detail') ? html.at_css('.description-detail').text.strip : nil
     img_url = html.at_css('img.GalleryImg')['src']
     img_url = img_url.include?('https:') ? img_url : nil
-    barcode = html.at_css('#OKTS_div')['data-ean']
+    barcode = html.at_css('#OKTS_div') ? html.at_css('#OKTS_div')['data-ean'] : nil
 
     is_available = true
 
@@ -106,9 +106,9 @@ if no_exists.empty?
     promo_attributes = nil
     is_private_label = !(brand.downcase.include?('tottus'))
 
-    item_identifiers = JSON.generate({
+    item_identifiers = barcode ? JSON.generate({
         "barcode" => "'#{barcode}'"
-    })
+    }) : nil
 
     product = {
         _id: competitor_product_id,
