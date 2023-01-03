@@ -12,7 +12,7 @@ end
 
 outputs << {
     _collection: "barcode",
-    _id: vars['productId']
+    _id: vars['productId'],
     barcode: barcode,
     item_identifiers: item_identifiers
 }

@@ -13,6 +13,6 @@ end
 
 outputs << {
     _collection: "rating",
-    _id: vars['productId']
+    _id: vars['productId'],
     reviews: reviews
 }
