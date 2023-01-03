@@ -1,4 +1,4 @@
-json = JSON.parse(content)
+json = JSON.parse(content)['data']
 
 vars = page['vars']
 
