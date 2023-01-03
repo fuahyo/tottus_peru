@@ -3,8 +3,8 @@ html = Nokogiri.HTML(content.force_encoding("utf-8"))
 var = page['vars']
 prod = var['prod']
 
-script = html.css('script[type="application/ld+json"]')[1].text
-json = JSON.parse(script)
+# script = html.css('script[type="application/ld+json"]')[1].text
+# json = JSON.parse(script)
 competitor_product_id = prod['productId']
 
 name = prod['displayName']
@@ -78,7 +78,7 @@ if size_std
     end
 end
 
-sku = json['sku']
+sku = prod['skuId']
 
 product_pieces_regex = [
     /(\d+)\s?per\s?pack/i,
