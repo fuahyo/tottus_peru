@@ -35,7 +35,7 @@ if categories.count > 0
 
                        
 
-                        if subcat2['item_url'] =~ /cat\d+/
+                        if subcat2['item_url'] =~ /catg?\d+/i
 
                             pages << {
                                 url: "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&categoryId=#{category_id}&categoryName=#{category_name}&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
