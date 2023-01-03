@@ -1,50 +1,35 @@
-html = Nokogiri.HTML(content)
+json = JSON.parse(content)
 
-var = page['vars']
+vars = page['vars']
 
-no_exists = html.at('h3.error-title') 
+products = json['results']
 
-unless no_exists
-    category_name = html.at_css('.facet-breadcrum.active')&.text.strip
-    products = html.css('.product')
-
-    products.each_with_index do |product, i|
-        
-        link = product.at_css('a')['href']
-
+if products.count > 0
+    products.each_with_index do |prod, i|
         pages << {
+            url: prod['url'],
             page_type: "products",
-            url: "https://www.tottus.com.pe#{link}",
-            fetch_type: 'browser',
-            vars: {
-                cat: category_name,
-                rank: i+1,
-                page_number: var['page_number']
-            }
+            vars: vars.merge("rank"=>(i+1), "prod"=>prod, "listings_gid"=>page['gid'])
         }
-
     end
-
-
-    if var['page_number'] == 1
-        total_products = html.at_css('.facet-total-products')
-
-        if total_products
-            total_products = total_products.text.scan(/\d+/).first.to_f 
-            total_page = (total_products/48).ceil
-            
-            (2...total_page).each do |page_number|
-                
-                pages << {
-                    url: page['url']+"&page=#{page_number}",
-                    page_type: 'listings',
-                    fetch_type: 'browser',
-                    vars: {
-                        page_number: page_number
-                    }
-                }
-            end
-        end
-    end
+else
+    outputs << {
+        _collection: "subcat_dont_have_product",
+        vars: vars
+    }
 end
 
+
+if vars['pn'] == 1
+    total = json['pagination']['count'].to_f
+    perpage = json['pagination']['perPage'].to_f
+    max_page = (total/perpage).ceil
+
+    (2..max_page).each do |pn|
+        pages << {
+            url: page['url'].gsub("page=1", "page=#{pn}"),
+            page_type: "listings",
+            vars: vars.merge("pn"=>pn)
+        }
+    end
+end

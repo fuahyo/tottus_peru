@@ -1,26 +1,20 @@
-i = 1
-products = []
-begin
-  outputs = find_outputs("list_products", {}, i, 500)
+while true
+  products = find_outputs("products", {"processed": "0"}, 1, 500)
+  
+  break if products.empty?
+  
+  products.each do |prod|
+    # find barcode
+    barcode = find_outputs("barcode", {"_id": prod['competitor_product_id']}, 1,1)
+    prod['barcode'] = barcode['barcode']
+    prod['item_identifiers'] = barcode['item_identifiers']
 
-  outputs.each do |output|
-    unless products.include?(output["competitor_product_id"])
-      products.append(output["competitor_product_id"])
-    end
+    rating = find_outputs("rating", {"_id": prod['competitor_product_id']}, 1,1)
+    prod['reviews'] = rating['reviews']
+
+    prod['processed'] = '1'
+    outputs << prod
+    save_outputs outputs if outputs.count > 99
   end
 
-  i += 1
-end while outputs.length > 0
-
-
-products.each do |product|
-  un_outputs = find_outputs("list_products", {"competitor_product_id": product}, 1, 500)
-
-  filtered_output = un_outputs[0]
-  filtered_output["_collection"] = "products"
-
-  outputs << filtered_output
-  save_outputs outputs if outputs.length > 99
 end
-
-save_outputs outputs
