@@ -9,6 +9,7 @@ competitor_product_id = prod['productId']
 
 name = prod['displayName']
 brand = prod['brand']
+brand = html.at_css('.product-brand')['data-brand'] if brand.nil? or brand.empty?
 
 price = prod['prices']
 base_price_lc = price.find{|p| p['type'] =~ /normalPrice/i}['price'].first.to_f rescue price.first['price'].first.to_f
@@ -139,7 +140,9 @@ if promo.count > 0
     }.to_json
 end
 
-is_private_label = !(brand.downcase.include?('tottus'))
+
+
+is_private_label = !(brand.downcase.include?('tottus')) 
 
 item_identifiers = nil
 
