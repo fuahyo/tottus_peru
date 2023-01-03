@@ -1,7 +1,7 @@
 json = JSON.parse(content)
 
 vars = page['vars']
-barcode = json['Results'],first['EANs'].first rescue nil
+barcode = json['Results'].first['EANs'].first rescue nil
 
 item_identifiers = nil
 if barcode
