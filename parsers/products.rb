@@ -1,4 +1,4 @@
-html = Nokogiri.HTML(content)
+html = Nokogiri.HTML(content.force_encoding("utf-8"))
 
 var = page['vars']
 prod = var['prod']
@@ -113,8 +113,10 @@ is_available = true
 
 promo = []
 
-prod['discountBadge'].each do |pr|
-    promo << "'#{pr['label']}'"
+if prod['discountBadge']
+    if prod['discountBadge']['label']
+        promo << "'#{prod['discountBadge']['label']}'"
+    end
 end
 
 prod['badges'].each do |pr|
@@ -173,7 +175,7 @@ product = {
     category: var['cat'],
     sub_category: var['subcat'],
     customer_price_lc: customer_price_lc,
-    base_price_lc: base_price,
+    base_price_lc: base_price_lc,
     has_discount: has_discount,
     discount_percentage: discount_percentage,
     rank_in_listing: var['rank'],
@@ -208,9 +210,11 @@ outputs << product
 pages << {
     url: "https://api.bazaarvoice.com/data/products.json?passkey=2xga75eqgl9scx29oke8xx11r&locale=es_PE&allowMissing=true&apiVersion=5.4&filter=id:#{competitor_product_id}",
     page_type: "barcode",
+    no_url_encode: true,
     vars: {
         productId: competitor_product_id,
-        product_gid: page['gid']
+        product_gid: page['gid'],
+        listings_gid: var['listings_gid']
     }
 }
 
@@ -218,8 +222,10 @@ pages << {
 pages << {
     url: "https://api.bazaarvoice.com/data/display/0.2alpha/product/summary?PassKey=2xga75eqgl9scx29oke8xx11r&productid=#{competitor_product_id}&contentType=reviews,questions&reviewDistribution=primaryRating,recommended&rev=0&contentlocale=es_AR,es_CL,es_PE,es_BO,es_CR,es_SV,es_EC,es_HN,es_NI,es_GT,es_DO,es_PR,es_PY,es_PA,es_UY,es_ES,es_US,es_MX,es_CO",
     page_type: "rating",
+    no_url_encode: true,
     vars: {
         productId: competitor_product_id,
-        product_gid: page['gid']
+        product_gid: page['gid'],
+        listings_gid: var['listings_gid']
     }
 }
