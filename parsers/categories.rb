@@ -1,6 +1,8 @@
-html = Nokogiri::HTML(content)
+
+html = Nokogiri::HTML(content.force_encoding("utf-8"))
 
 script = html.at_css('script#__NEXT_DATA__').text
+# p script
 json = JSON.parse(script)
 
 categories = json['props']['pageProps']['serverData']['headerData']['taxonomy']['entry']['all_accesses']['categories']
