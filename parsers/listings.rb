@@ -30,6 +30,8 @@ if json['results'] or json['pagination']
             pages << {
                 url: page['url'].gsub("page=1", "page=#{pn}"),
                 page_type: "listings",
+                http2: true,
+                headers: page['headers'],
                 vars: vars.merge("pn"=>pn)
             }
         end
