@@ -40,6 +40,7 @@ else
     pages << {
         url: vars['ori_url'],
         page_type: "listing_html",
+        no_redirect: true,
         vars: vars
     }
 end
