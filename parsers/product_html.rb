@@ -1,4 +1,4 @@
-if page['failed_response_status_code']
+if page['failed_response_status_code']  or content.nil?
     if page['refetch_count'] < 2
         refetch page['gid']
     else
@@ -28,13 +28,14 @@ else
     script = html.at_css('script#__NEXT_DATA__').text
     json = JSON.parse(script)
     prod = json['props']['pageProps']['productData'] 
-    competitor_product_id = prod['productId']
 
-    name = prod['displayName']
-    brand = prod['brand']
+    competitor_product_id = prod['id']
+
+    name = prod['name']
+    brand = prod['brandName']
     brand = html.at_css('.product-brand')['data-brand'] if brand.nil? or brand.empty?
 
-    price = prod['prices']
+    price = prod['variants'].first['prices']
     base_price_lc = price.find{|p| p['type'] =~ /normalPrice/i}['price'].first.to_f rescue price.first['price'].first.to_f
     customer_price_lc = base_price_lc
 
@@ -102,7 +103,7 @@ else
         end
     end
 
-    sku = prod['skuId']
+    sku = prod['variants'].first['id']
 
     product_pieces_regex = [
         /(\d+)\s?per\s?pack/i,
@@ -130,24 +131,24 @@ else
 
     description = description_array.join("")
 
-    img_url = prod['mediaUrls'].first
+    img_url = prod['variants'].first['medias'].first['url']
     barcode = nil
 
     is_available = true
 
     promo = []
 
-    if prod['discountBadge']
-        if prod['discountBadge']['label']
-            promo << "'#{prod['discountBadge']['label']}'"
+    if prod['variants'].first['discountBadge']
+        if prod['variants'].first['discountBadge']['label']
+            promo << "'#{prod['variants'].first['discountBadge']['label']}'"
         end
     end
 
-    prod['badges'].each do |pr|
+    prod['variants'].first['badges'].each do |pr|
         promo << "'#{pr['label']}'"
     end
 
-    prod['multipurposeBadges'].each do |pr|
+    prod['variants'].first['multipurposeBadges'].each do |pr|
         promo << "'#{pr['label']}'"
     end
 

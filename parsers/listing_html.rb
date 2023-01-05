@@ -1,7 +1,7 @@
 
 vars = page['vars']
 
-if page['response_status_code'] == 307
+if page['response_status_code'] == 307 or page['response_status_code'] == 301
     outputs << {
         _collection: "category_redirect",
         vars: vars,

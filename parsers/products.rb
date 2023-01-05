@@ -1,4 +1,4 @@
-if page['failed_response_status_code']
+if page['failed_response_status_code'] or content.nil?
     if page['refetch_count'] < 2
         refetch page['gid']
     else
