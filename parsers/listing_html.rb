@@ -1,12 +1,33 @@
 
 vars = page['vars']
-
-if page['response_status_code'] == 307 or page['response_status_code'] == 301
+if page['response_status_code'] == 307 or page['response_status_code'] == 301 
     outputs << {
         _collection: "category_redirect",
         vars: vars,
         url: page['url']
     }
+elsif page['failed_response_status_code'] == 403 
+    if page['refetch_count'] < 3
+        refetch page['gid']
+    else
+        if page['fetch_type'] == "standard"
+            pages << {
+                page_type: "listing_html",
+                url: page['url'],
+                fetch_type: "browser",
+                driver: {
+                    name: "browser"
+                },
+                vars: vars
+            }
+        else
+            outputs << {
+                _collection: "fail_to_get_listing",
+                vars: vars,
+                url: url,
+            }
+        end
+    end
 else
     html = Nokogiri::HTML(content)
     products = html.css('#testId-searchResults-products .search-results-4-grid')
