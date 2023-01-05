@@ -31,3 +31,5 @@ exporters:
     disabled: false
   - file: "./exporters/product_csv.yaml"
     disabled: false
+    
+parse_failed_pages: true
