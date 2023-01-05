@@ -4,7 +4,7 @@ if page['failed_response_status_code']
     else
         if page['fetch_type'] == "standard"
            pages << {
-            page_type: "products",
+            page_type: "product_html",
             url: page['url'],
             fetch_type: "browser",
             driver: {
@@ -23,10 +23,11 @@ else
     html = Nokogiri.HTML(content.force_encoding("utf-8"))
 
     var = page['vars']
-    prod = var['prod']
+    # prod = var['prod']
 
-    # script = html.css('script[type="application/ld+json"]')[1].text
-    # json = JSON.parse(script)
+    script = html.at_css('script#__NEXT_DATA__').text
+    json = JSON.parse(script)
+    prod = json['props']['pageProps']['productData'] 
     competitor_product_id = prod['productId']
 
     name = prod['displayName']
