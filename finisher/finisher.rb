@@ -6,11 +6,15 @@ while true
   products.each do |prod|
     # find barcode
     barcode = find_outputs("barcode", {"_id": prod['competitor_product_id']}, 1,1)
-    prod['barcode'] = barcode['barcode']
-    prod['item_identifiers'] = barcode['item_identifiers']
+    unless barcode.empty?
+      prod['barcode'] = barcode['barcode']
+      prod['item_identifiers'] = barcode['item_identifiers']
+    end
 
     rating = find_outputs("rating", {"_id": prod['competitor_product_id']}, 1,1)
-    prod['reviews'] = rating['reviews']
+    unless rating.empty?
+      prod['reviews'] = rating['reviews']
+    end
 
     prod['processed'] = '1'
     outputs << prod
