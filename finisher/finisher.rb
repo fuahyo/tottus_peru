@@ -7,12 +7,14 @@ while true
     # find barcode
     barcode = find_outputs("barcode", {"_id": prod['competitor_product_id']}, 1,1)
     unless barcode.empty?
+      barcode = barcode.first
       prod['barcode'] = barcode['barcode']
       prod['item_identifiers'] = barcode['item_identifiers']
     end
 
     rating = find_outputs("rating", {"_id": prod['competitor_product_id']}, 1,1)
     unless rating.empty?
+      rating = rating.first
       prod['reviews'] = rating['reviews']
     end
 
