@@ -3,10 +3,10 @@ if page['failed_response_status_code']
         refetch page['gid']
     else
         pages << {
-            url: vars['ori_url'],
+            url: page['vars']['ori_url'],
             page_type: "listing_html",
             no_redirect: true,
-            vars: vars
+            vars: page['vars']
         }
     end
 else
