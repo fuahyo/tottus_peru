@@ -40,7 +40,7 @@ else
     if price.count > 1
         cust_price = price.find{|p| !(p['type'] =~ /normalPrice/i)}
         if cust_price
-            customer_price_lc = cust_price['price'].gsub(",", "").first.to_f
+            customer_price_lc = cust_price['price'].first.gsub(",", "").to_f
         end
     end
 
