@@ -36,13 +36,13 @@ else
     brand = html.at_css('.product-brand')['data-brand'] if brand.nil? or brand.empty?
 
     price = prod['variants'].first['prices']
-    base_price_lc = price.find{|p| p['type'] =~ /normalPrice/i}['price'].first.to_f rescue price.first['price'].first.to_f
+    base_price_lc = price.find{|p| p['type'] =~ /normalPrice/i}['price'].first.gsub(",", "").to_f rescue price.first['price'].first.gsub(",", "").to_f
     customer_price_lc = base_price_lc
 
     if price.count > 1
         cust_price = price.find{|p| !(p['type'] =~ /normalPrice/i)}
         if cust_price
-            customer_price_lc = cust_price['price'].first.to_f
+            customer_price_lc = cust_price['price'].first.gsub(",", "").to_f
         end
     end
 
@@ -165,8 +165,8 @@ else
     end
 
 
+    is_private_label = (brand.nil? or brand.empty?) ? nil : !(brand.downcase.include?('tottus')) 
 
-    is_private_label = !(brand.downcase.include?('tottus')) 
 
     item_identifiers = nil
 
