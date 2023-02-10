@@ -4,11 +4,11 @@ vars = page['vars']
 barcode = json['Results'].first['EANs'].first rescue nil
 
 item_identifiers = nil
-if barcode
-    item_identifiers = {
-        barcode: "'#{barcode}'"
-    }.to_json
-end
+# if barcode
+#     item_identifiers = {
+#         barcode: "'#{barcode}'"
+#     }.to_json
+# end
 
 outputs << {
     _collection: "barcode",
