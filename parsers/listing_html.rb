@@ -6,7 +6,7 @@ if page['response_status_code'] == 307 or page['response_status_code'] == 301
         vars: vars,
         url: page['url']
     }
-elsif page['failed_response_status_code'] == 403 
+elsif page['failed_response_status_code'] == 403 or content.nil?
     if page['refetch_count'] < 3
         refetch page['gid']
     else
@@ -43,6 +43,7 @@ else
     end
 
     if vars['pn'] == 1
+        p html.at_css("span#search_numResults")
         total = html.at_css("span#search_numResults")['data-results'].to_f
         max_page = (total/48).ceil
 
