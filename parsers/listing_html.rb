@@ -29,7 +29,8 @@ elsif page['failed_response_status_code'] == 403 or content.nil?
         end
     end
 else
-    html = Nokogiri::HTML(content)
+    # File.write("test.html", content)
+    html = Nokogiri::HTML(content.force_encoding('UTF-8'))
     products = html.css('#testId-searchResults-products .search-results-4-grid')
 
     products.each_with_index do |prod, i|
@@ -42,9 +43,9 @@ else
         }
     end
 
+
     if vars['pn'] == 1
-        p html.at_css("span#search_numResults")
-        total = html.at_css("span#search_numResults")['data-results'].to_f
+        total = html.at_css("#search_numResults")['data-results'].to_f
         max_page = (total/48).ceil
 
         (2..max_page).each do |pn|
