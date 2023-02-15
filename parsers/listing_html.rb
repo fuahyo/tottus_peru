@@ -32,9 +32,11 @@ else
     # File.write("test.html", content)
     html = Nokogiri::HTML(content.force_encoding('UTF-8'))
     products = html.css('#testId-searchResults-products .search-results-4-grid')
-
+    products = html.css('#testId-searchResults-products .search-results-2-grid') if products.empty? 
+    
     products.each_with_index do |prod, i|
-        link = prod.at_css('a.layout_view_4_GRID')['href']
+        link = prod.at_css('a.layout_view_4_GRID')['href'] rescue nil
+        link = prod.at_css('a.pod-link')['href'] if link.nil?
 
         pages << {
             url: link,
@@ -46,6 +48,7 @@ else
 
     if vars['pn'] == 1
         total = html.at_css("#search_numResults")['data-results'].to_f
+
         max_page = (total/48).ceil
 
         (2..max_page).each do |pn|
