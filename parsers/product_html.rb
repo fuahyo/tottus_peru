@@ -24,11 +24,15 @@ else
 
     var = page['vars']
 
-    if html.at_css('.warning-box').text.strip =~ /Producto sin stock/i
-        outputs << {
-            _collection: "product_out_of_stock",
-            vars: var
-        }
+    if html.at_css('.warning-box')
+        if  html.at_css('.warning-box').text.strip =~ /Producto sin stock/i
+            outputs << {
+                _collection: "product_out_of_stock",
+                vars: var
+            }
+        else
+            raise "need to check"
+        end
     else
     
         # prod = var['prod']
@@ -36,6 +40,7 @@ else
         script = html.at_css('script#__NEXT_DATA__').text
         json = JSON.parse(script)
         prod = json['props']['pageProps']['productData'] 
+        # File.write("product.json", JSON.dump(prod))
 
         competitor_product_id = prod['id']
 
@@ -139,7 +144,7 @@ else
 
         description = description_array.join("")
 
-        img_url = prod['variants'].first['medias'].first['url']
+        img_url = prod['variants'].first['medias'].first['url'] rescue nil
         barcode = nil
 
         is_available = true
