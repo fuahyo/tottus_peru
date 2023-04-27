@@ -54,8 +54,13 @@ else
 
         if price.count > 1
             cust_price = price.find{|p| !(p['type'] =~ /normalPrice/i)}
+
             if cust_price
                 customer_price_lc = cust_price['price'].first.gsub(",", "").to_f
+
+                cust_price_type = cust_price['type']
+                base_price = price.find{|p| p['type'] != cust_price['type'] }
+                base_price_lc = base_price['price'].first.gsub(",", "").to_f if base_price
             end
         end
 
