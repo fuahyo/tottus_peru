@@ -150,8 +150,10 @@ else
         promo << "'#{pr['label']}'"
     end
 
-    prod['multipurposeBadges'].each do |pr|
-        promo << "'#{pr['label']}'"
+    if prod['multipurposeBadges']
+        prod['multipurposeBadges'].each do |pr|
+            promo << "'#{pr['label']}'"
+        end
     end
 
     is_promoted = false
