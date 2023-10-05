@@ -31,13 +31,16 @@ elsif page['failed_response_status_code'] == 403 or content.nil?
 else
     # File.write("test.html", content)
     html = Nokogiri::HTML(content.force_encoding('UTF-8'))
-    products = html.css('#testId-searchResults-products .search-results-4-grid')
-    products = html.css('#testId-searchResults-products .search-results-2-grid') if products.empty? 
+    # products = html.css('#testId-searchResults-products .search-results-4-grid')
+    # products = html.css('#testId-searchResults-products .search-results-2-grid') if products.empty? 
+    script = html.at("script#__NEXT_DATA__").text
+    json = JSON.parse(script)
+    products = json['props']['pageProps']['results']
     
     products.each_with_index do |prod, i|
-        link = prod.at_css('a.layout_view_4_GRID')['href'] rescue nil
-        link = prod.at_css('a.pod-link')['href'] if link.nil?
-
+        # link = prod.at_css('a.layout_view_4_GRID')['href'] rescue nil
+        # link = prod.at_css('a.pod-link')['href'] if link.nil?
+        link = prod['url']
         pages << {
             url: link,
             page_type: "product_html",
