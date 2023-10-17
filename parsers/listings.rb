@@ -22,6 +22,9 @@ else
                 pages << {
                     url: prod['url'],
                     page_type: "products",
+                    driver: {
+                        name: "from_api"
+                    },
                     vars: vars.merge("rank"=>(i+1), "prod"=>prod, "listings_gid"=>page['gid'])
                 }
             end

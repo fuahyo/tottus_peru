@@ -44,6 +44,9 @@ else
         pages << {
             url: link,
             page_type: "product_html",
+            driver: {
+                name: "from_html_listings"
+            },
             vars: vars.merge("rank"=>(i+1), "listing_gid"=>page['gid'])
         }
     end
