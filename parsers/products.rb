@@ -27,6 +27,10 @@ else
 
     # script = html.css('script[type="application/ld+json"]')[1].text
     # json = JSON.parse(script)
+    if prod.nil?
+        reparse var['listing_gid']
+        finish
+    end
     competitor_product_id = prod['productId']
 
     name = prod['displayName']
