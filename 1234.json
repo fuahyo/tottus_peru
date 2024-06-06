@@ -1,0 +1,1325 @@
+[
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG14545&categoryName=Te-y-cafe&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Menaje > Tazas, Teteras y Cafeteras",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG14545/Te-y-cafe"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat3180500&categoryName=Utensilios-de-cocina&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Menaje > Utensilios de Cocina",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat3180500/Utensilios-de-cocina"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG14655&categoryName=Organizacion-de-Cocina&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Menaje > Organización de Cocina",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG14655/Organizacion-de-Cocina"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat7040610&categoryName=Textil-Cocina&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Menaje > Textiles de Cocina",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat7040610/Textil-Cocina"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat14630463&categoryName=Menaje-bebe&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Menaje > Menaje Infantil",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat14630463/Menaje-bebe"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat13270462&categoryName=Articulos-de-escritorio-y-papeleria&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Librería > Útiles y Papelería",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat13270462/Articulos-de-escritorio-y-papeleria"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat12100468&categoryName=Libros&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Librería > Libros",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat12100468/Libros"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat530473&categoryName=Mochilas-Escolares&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Librería > Mochilas, Loncheras y Cartucheras",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat530473/Mochilas-Escolares"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG12016&categoryName=Fiestas-y-celebraciones&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Librería > Fiestas y Celebraciones",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG12016/Fiestas-y-celebraciones"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/collection/pe?page=1&subdomain=tottus&store=tottus&collectionId=search?Ntt=diccionario&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2,URBANO_83,OLVAA_36,912_LIMA_1,150101,IBIS_21,PERF_TEST,150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Librería > Diccionarios",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/search?Ntt=diccionario"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat2660494&categoryName=Parrillas-y-accesorios&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Otras Categorías > Parrillas y Accesorios",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat2660494/Parrillas-y-accesorios"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat2660496&categoryName=Cajas-chinas-y-hornos&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Otras Categorías > Cajas Chinas",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat2660496/Cajas-chinas-y-hornos"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat11820463&categoryName=Aperitivo-y-bar&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Otras Categorías > Bar",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat11820463/Aperitivo-y-bar"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG11944&categoryName=Automotriz&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Otras Categorías > Automotriz",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG11944/Automotriz"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat8000471&categoryName=Herramientas-y-maquinas&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Hogar Bazar",
+      "subcat": "Otras Categorías > Ferretería",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat8000471/Herramientas-y-maquinas"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat2020480&categoryName=Toallas-de-Playa?&f.product.L2_category_paths=CATG11948%7C%7CJard%C3%ADn+y+terraza%2FCATG12012%7C%7CPiscinas%2C+spa+e+inflables%2Fcat2020480%7C%7CToallas+de+Playa&store=tottus&subdomain=tottus &pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Toallas de playa",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat2020480/Toallas-de-Playa?&f.product.L2_category_paths=CATG11948%7C%7CJard%C3%ADn+y+terraza%2FCATG12012%7C%7CPiscinas%2C+spa+e+inflables%2Fcat2020480%7C%7CToallas+de+Playa&store=tottus&subdomain=tottus "
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG14599&categoryName=Quitasoles-y-bases&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Sombrillas",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG14599/Quitasoles-y-bases"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/collection/pe?page=1&subdomain=tottus&store=tottus&collectionId=search?Ntt=silla+playa&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2,URBANO_83,OLVAA_36,912_LIMA_1,150101,IBIS_21,PERF_TEST,150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Sillas plegables",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/search?Ntt=silla+playa"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG15343&categoryName=Flotadores-e-Inflables&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Flotadores e inflables",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG15343/Flotadores-e-Inflables"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG33614&categoryName=Bodyboard&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Bodyboards",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG33614/Bodyboard"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CAT550500&categoryName=Botes-y-kayaks&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Botes y kayaks",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CAT550500/Botes-y-kayaks"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG15280&categoryName=Stand-Up-Paddle&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Stand Up Paddle",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG15280/Stand-Up-Paddle"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG14590&categoryName=Piscinas-Inflables&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Piscinas inflables",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG14590/Piscinas-Inflables"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG14589&categoryName=Piscinas-Estructurales&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Todo Verano > Piscinas estructurales",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG14589/Piscinas-Estructurales"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat14370471&categoryName=Carpas&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Camping > Carpas",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat14370471/Carpas"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat14370472&categoryName=Bolsas-de-Dormir&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Camping > Bolsas de dormir",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat14370472/Bolsas-de-Dormir"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat14370473&categoryName=Colchon-inflable-y-colchonetas&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Camping > Colchones inflables",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat14370473/Colchon-inflable-y-colchonetas"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat6880494&categoryName=Mochilas-de-Viaje-y-bolsos-outdoor&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Camping > Mochilas de viaje",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat6880494/Mochilas-de-Viaje-y-bolsos-outdoor"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG14546&categoryName=Linternas-y-lamparas-outdoor&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Camping > Linterna y lámparas",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG14546/Linternas-y-lamparas-outdoor"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG15272&categoryName=Coolers&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Camping > Coolers",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG15272/Coolers"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat14370476&categoryName=Accesorios-Outdoor&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Camping > Accesorios outdoor",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat14370476/Accesorios-Outdoor"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat40798&categoryName=Muebles-de-terraza&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Jardín y terraza > Muebles de terraza",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat40798/Muebles-de-terraza"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat8470480&categoryName=Mesas-de-terraza&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Jardín y terraza > Mesas de terraza",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat8470480/Mesas-de-terraza"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat2660494&categoryName=Parrillas-y-accesorios&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Jardín y terraza > Parrillas y accesorios",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat2660494/Parrillas-y-accesorios"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat2660496&categoryName=Cajas-chinas-y-hornos&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Jardín y terraza > Cajas chinas y hornos",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat2660496/Cajas-chinas-y-hornos"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat520472&categoryName=Maquinas-de-Gimnasio&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Mundo Fitness > Mini gimnasios",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat520472/Maquinas-de-Gimnasio"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat14340461&categoryName=Mancuernas-y-Pesas&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Mundo Fitness > Mancuernas y Pesas",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat14340461/Mancuernas-y-Pesas"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat560922&categoryName=Accesorios-para-gimnasio&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Mundo Fitness > Accesorios de gimnasio",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat560922/Accesorios-para-gimnasio"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat4710461&categoryName=Bicicletas-Estacionarias&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Mundo Fitness > Bicicletas estacionarias",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat4710461/Bicicletas-Estacionarias"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat520470&categoryName=Spinning&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Mundo Fitness > Bicicletas de spinning",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat520470/Spinning"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat520468&categoryName=Trotadoras&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Mundo Fitness > Trotadoras",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat520468/Trotadoras"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat520466&categoryName=Elipticas&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Mundo Fitness > Elípticas",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat520466/Elipticas"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat6630601&categoryName=Ciclismo&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Otros deportes > Ciclismo",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat6630601/Ciclismo"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat40611&categoryName=Futbol&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Otros deportes > Fútbol",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat40611/Futbol"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat12490467&categoryName=Voleyball&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Otros deportes > Voleyball",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat12490467/Voleyball"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=CATG33555&categoryName=Deportes-de-Raqueta&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Otros deportes > Ping pong",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/CATG33555/Deportes-de-Raqueta"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat6700466&categoryName=Yoga-y-pilates&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Otros deportes > Yoga y pilates",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat6700466/Yoga-y-pilates"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat6630630&categoryName=Ropa-deportiva-mujer&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Vestuario deportivo > Ropa deportiva mujer",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat6630630/Ropa-deportiva-mujer"
+    }
+  },
+  {
+    "url": "https://www.falabella.com.pe/s/browse/v1/listing/pe?page=1&subdomain=tottus&store=tottus&categoryId=cat6630655&categoryName=Ropa-deportiva-hombre&pgid=2&pid=799c102f-9b4c-44be-a421-23e366a63b82&zones=912_LIMA_2%2CURBANO_83%2COLVAA_36%2C912_LIMA_1%2C150101%2CIBIS_21%2CPERF_TEST%2C150000",
+    "page_type": "listings",
+    "http2": true,
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "origin": "https://tottus.falabella.com.pe",
+      "referer": "https://tottus.falabella.com.pe/",
+      "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "x-device-type": "desktop"
+    },
+    "vars": {
+      "pn": 1,
+      "cat": "Deportes y Aire Libre",
+      "subcat": "Vestuario deportivo > Ropa deportiva hombre",
+      "ori_url": "https://tottus.falabella.com.pe/tottus-pe/category/cat6630655/Ropa-deportiva-hombre"
+    }
+  }
+]

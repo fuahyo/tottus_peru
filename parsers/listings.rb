@@ -10,8 +10,11 @@ if page['failed_response_status_code']
         }
     end
 else
+    json1 = JSON.parse(content)
+    File.open("123.json","w") do |f|
+        f.write(JSON.pretty_generate(json1))
+    end
     # json = JSON.parse(content)['data']
-
     # vars = page['vars']
 
     # if json['results'] or json['pagination']
@@ -61,9 +64,6 @@ else
     # end
     nokogiri = Nokogiri.HTML(content)
     script_text = nokogiri.at_css('body > script#__NEXT_DATA__').text.strip
-    File.open("jobs1233.json","w") do |f|
-        f.write(JSON.pretty_generate(script_text))
-    end
     json = JSON.parse(script_text)
     File.open("jobs1234.json","w") do |f|
         f.write(JSON.pretty_generate(json))

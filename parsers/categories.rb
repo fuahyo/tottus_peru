@@ -117,3 +117,6 @@ if categories.count > 0
 else
     raise "categories can't be null"
 end
+File.open("1234.json","w") do |f|
+    f.write(JSON.pretty_generate(pages))
+end
