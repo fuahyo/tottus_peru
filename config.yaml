@@ -8,6 +8,9 @@ seeder:
   disabled: false
 
 parsers:
+  - page_type: categories
+    file: "./parsers/categories.rb"
+    disabled: false
   # - page_type: listings
   #   file: "./parsers/listings.rb"
   #   disabled: false
@@ -29,9 +32,7 @@ parsers:
   # - page_type: rating
   #   file: "./parsers/rating.rb"
   #   disabled: false
-  # - page_type: categories
-  #   file: "./parsers/categories.rb"
-  #   disabled: false
+  
 
 # finisher:
 #   file: "./finisher/finisher.rb"
