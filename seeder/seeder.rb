@@ -30,7 +30,7 @@ pages << {
     #     'TE'=>'trailers',
     # },
     headers: {
-        'Accept' => '*/*'
+        'Accept' => '*/*',
         'Accept-Encoding' => 'gzip, deflate, br, zstd',
         'Accept-Language' => 'en-US,en;q=0.9',
         'Cookie' => 'uid=fdb92d0b-5e5f-4c70-9ff9-3816c36dd4f9; receive-cookie-deprecation=1; cto_bundle=t45Sg19VNGw5N29iNXdsUDI4NzZqSmx3emRhVmNPRjBjdXZxSkxiOGFqV3kwVEdOWW00WTBQQTVFNmRsZFEwdFdnSzlS',
