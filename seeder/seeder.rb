@@ -12,8 +12,8 @@
 # end
 
 pages << {
-    url: "https://gum.criteo.com/sid/json?origin=onetag&domain=falabella.com.pe&sn=ChromeSyncframe&so=undefined&topUrl=tottus.falabella.com.pe&bundle=vRik-185U0ROU213SEthYWlpU2U4RzZ3dHdkZjA5dWRFZHBMc1VmMEUxcnJzRjcyZWpJYzk4VjFzV0lvRVUyS3JxOTlnRzdkdnROb3I0d2d3MGlzT2NMV1F3S0Jua3JJT1hDZXRaTHA2cHBpRDVhS2lmdGhLeUxxeHAwZG9mcjVJWlBDVU9lQmRpa3FvMEVHWlYlMkJPOUdMT0ZpR2ZtdVRGNlpEU0ZXNGpWYmlISkxiejk1UHZ0TVFNaDJUQmxnTWY5TG9PaDlVRnJ4cUNiZE5idUQxdDdubSUyQmxNZyUzRCUzRA&cw=1&lsw=1&topicsavail=0&fledgeavail=0",
-    # url: "https://app.scrapingbee.com/api/v1/?api_key=RXCQIS4NMT5AUECHPXCXXX321V8TMPH9A41LUFCNDJR9M8DMNZL5W16OTOIWMT40PYY250HQ3J5SR77R&url=https%3A%2F%2Ftottus.falabella.com.pe",
+    # url: "https://gum.criteo.com/sid/json?origin=onetag&domain=falabella.com.pe&sn=ChromeSyncframe&so=undefined&topUrl=tottus.falabella.com.pe&bundle=vRik-185U0ROU213SEthYWlpU2U4RzZ3dHdkZjA5dWRFZHBMc1VmMEUxcnJzRjcyZWpJYzk4VjFzV0lvRVUyS3JxOTlnRzdkdnROb3I0d2d3MGlzT2NMV1F3S0Jua3JJT1hDZXRaTHA2cHBpRDVhS2lmdGhLeUxxeHAwZG9mcjVJWlBDVU9lQmRpa3FvMEVHWlYlMkJPOUdMT0ZpR2ZtdVRGNlpEU0ZXNGpWYmlISkxiejk1UHZ0TVFNaDJUQmxnTWY5TG9PaDlVRnJ4cUNiZE5idUQxdDdubSUyQmxNZyUzRCUzRA&cw=1&lsw=1&topicsavail=0&fledgeavail=0",
+    url: "https://app.scrapingbee.com/api/v1/?api_key=RXCQIS4NMT5AUECHPXCXXX321V8TMPH9A41LUFCNDJR9M8DMNZL5W16OTOIWMT40PYY250HQ3J5SR77R&url=https%3A%2F%2Ftottus.falabella.com.pe",
     # http2: true,
     # headers: {
     #     'User-Agent'=>'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
@@ -29,20 +29,5 @@ pages << {
     #     'Sec-Fetch-User'=>'?1',
     #     'TE'=>'trailers',
     # },
-    headers: {
-        'Accept' => '*/*',
-        'Accept-Encoding' => 'gzip, deflate, br, zstd',
-        'Accept-Language' => 'en-US,en;q=0.9',
-        'Cookie' => 'uid=fdb92d0b-5e5f-4c70-9ff9-3816c36dd4f9; receive-cookie-deprecation=1; cto_bundle=t45Sg19VNGw5N29iNXdsUDI4NzZqSmx3emRhVmNPRjBjdXZxSkxiOGFqV3kwVEdOWW00WTBQQTVFNmRsZFEwdFdnSzlS',
-        'Priority' => 'u=1, i',
-        'Referer' => 'https://gum.criteo.com/syncframe?topUrl=tottus.falabella.com.pe&origin=onetag',
-        'Sec-Ch-Ua' => '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
-        'Sec-Ch-Ua-Mobile' => '?0',
-        'Sec-Ch-Ua-Platform' => '"macOS"',
-        'Sec-Fetch-Dest' => 'empty',
-        'Sec-Fetch-Mode' => 'cors',
-        'Sec-Fetch-Site' => 'same-origin',
-        'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-    },
     page_type: "categories"
 }

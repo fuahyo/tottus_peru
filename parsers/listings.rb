@@ -11,7 +11,7 @@ if page['failed_response_status_code']
     end
 else
     json1 = JSON.parse(content)
-    File.open("123.json","w") do |f|
+    File.open("122.json","w") do |f|
         f.write(JSON.pretty_generate(json1))
     end
     # json = JSON.parse(content)['data']
