@@ -8,9 +8,9 @@ seeder:
   disabled: false
 
 parsers:
-  - page_type: listings
-    file: "./parsers/listings.rb"
-    disabled: false
+  # - page_type: listings
+  #   file: "./parsers/listings.rb"
+  #   disabled: false
   # - page_type: listing_html
   #   file: "./parsers/listing_html.rb"
   #   disabled: false
